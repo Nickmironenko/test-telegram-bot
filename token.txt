@@ -1,7 +1,0 @@
-{
-   "token" "694963674:AAHrjvJVoajoH8EQNjB8sjYDidpOz-9bFvY" - //мегамайн
-}
-
-{
-    "token2" "912297369:AAEDhsdcp218U8_csGvkHq4nZcpzH__aFOs" - //егор
-}
