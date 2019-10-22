@@ -38,3 +38,16 @@ bot.onText(/\/info/, (msg, match) => {
   bot.sendMessage (chatId, "Твое имя " + msg.from.first_name +  "\n Id сообщения: " + msg.message_id + "\n Твой id: " + msg.from.id + "\n Твой юзверь: " + msg.from.username + "\n Время у тебя: " + msg.date);
 
 });
+
+bot.onText(/\/pic (.+)/, (msg) => {
+
+  const chatId = msg.chat.id;
+  const photo = 'done.jpg'
+  console.log (msg);
+  bot.on("polling_error", (err) => console.log(err));
+if (msg.text == "/pic test") { 
+  bot.sendPhoto (chatId, photo);
+} else if (msg.text) {
+  bot.sendMessage (chatId, "???");
+}
+});
