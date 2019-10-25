@@ -3,7 +3,7 @@ const request = require('request');
 
 console.log ('Бот успешно запустился');
 
-const token = '979140890:AAGO-VcaWkhDY_WCCssQDHwjf3ZHLyi-j_4';
+const token = '979140890:AAGO-VcaWkhDY_WCCssQDHwjf3ZHLyi_4';
 
 const bot = new TelegramBot(token, {polling: true});
 
